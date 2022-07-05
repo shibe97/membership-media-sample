@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import Image from 'next/image';
-import type { ArticleListDetail } from '../../types';
+import type { ArticleListDetail } from '../types';
 
 type Props = {
   data: ArticleListDetail;
