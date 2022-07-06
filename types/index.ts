@@ -11,5 +11,5 @@ export type Article = {
   private: boolean;
 };
 
-export declare type ArticleList = MicroCMSListResponse<Article>;
-export declare type ArticleListDetail = Article & MicroCMSListContent;
+export type ArticleList = MicroCMSListResponse<Article>;
+export type ArticleListDetail = Article & MicroCMSListContent;
