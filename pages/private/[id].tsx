@@ -10,12 +10,6 @@ export const getServerSideProps: GetServerSideProps = getServerSidePropsWrapper(
   const session = await getSession(req, res);
   if (!session) {
     return { props: {} };
-    // return {
-    //   redirect: {
-    //     destination: '/api/auth/login',
-    //     permanent: false
-    //   },
-    // }
   }
 
   const data = await client.getListDetail<ArticleType>({
