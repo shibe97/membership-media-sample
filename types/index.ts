@@ -6,6 +6,7 @@ import {
 
 export type Article = {
   title?: string;
+  description?: string;
   body?: string;
   thumbnail?: MicroCMSImage;
   private: boolean;
